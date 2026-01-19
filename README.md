@@ -3,6 +3,9 @@
 This repository documents a real-world case study of diagnosing and fixing a slow Windows 10 Lenovo ThinkPad using built-in tools and PowerShell.  
 The objective was to restore performance without reinstalling Windows, using a structured troubleshooting workflow.
 
+## 📄 PDF Version of Slides
+[Download the PDF](https://docs.google.com/presentation/d/1J4WmL9aEtb3ZK3m9QTHoQZ8rgHyKHas-4jROc9dXBgE/view?usp=sharing)
+
 ---
 
 ## 🔍 What’s Included
