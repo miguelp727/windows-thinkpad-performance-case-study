@@ -1,4 +1,9 @@
 # Windows 10 ThinkPad Performance Case Study
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue?logo=powershell)
+![Windows 10](https://img.shields.io/badge/Windows-10-blue?logo=windows)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
+![Repo Size](https://img.shields.io/github/repo-size/miguelp727/windows-thinkpad-performance-case-study)
+![Last Commit](https://img.shields.io/github/last-commit/miguelp727/windows-thinkpad-performance-case-study)
 
 This repository documents a real-world case study of diagnosing and fixing a slow Windows 10 Lenovo ThinkPad using built-in tools and PowerShell.  
 The objective was to restore performance without reinstalling Windows, using a structured troubleshooting workflow.
