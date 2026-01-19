@@ -1,25 +1,40 @@
 # Windows 10 ThinkPad Performance Case Study
 
-This repository documents a real-world case study of diagnosing and fixing
-a slow Windows 10 laptop (Lenovo ThinkPad) using built-in tools and PowerShell.
+This repository documents a real-world case study of diagnosing and fixing a slow Windows 10 Lenovo ThinkPad using built-in tools and PowerShell.  
+The objective was to restore performance without reinstalling Windows, using a structured troubleshooting workflow.
 
-## What’s included
-- Performance analysis (CPU, RAM, Disk, Startup)
+---
+
+## 🔍 What’s Included
+
+- Performance diagnostics (CPU, RAM, Disk, Startup)
 - System repair and deep cleaning
 - Windows optimization for older hardware
 - Hardware upgrade insights (SSD / RAM)
+- PowerShell automation scripts
+- Full presentation slides
 
-## Presentation
-Slides used in this case study are available here:
-https://docs.google.com/presentation/d/1J4WmL9aEtb3ZK3m9QTHoQZ8rgHyKHas-4jROc9dXBgE/edit?usp=sharing
+---
 
-## Scripts
-PowerShell scripts used in this project:
-- analysis.ps1
-- cleanup.ps1
-- optimization.ps1
+## 📊 Presentation Slides
 
-## Key takeaway
-Most slow Windows 10 laptops are software- and storage-limited.
-An SSD upgrade plus proper optimization can restore usability
-without reinstalling Windows.
+The full case study presentation is available here:  
+👉 https://docs.google.com/presentation/d/1J4WmL9aEtb3ZK3m9QTHoQZ8rgHyKHas-4jROc9dXBgE/view?usp=sharing
+
+---
+
+## 💻 PowerShell Scripts
+
+| Script | Description |
+|--------|-------------|
+| [analysis.ps1](scripts/analysis.ps1) | Collects system diagnostics (CPU, RAM, Disk, Drive Type, Startup) |
+| [cleanup.ps1](scripts/cleanup.ps1) | Repairs Windows components and performs deep cleanup |
+| [optimization.ps1](scripts/optimization.ps1) | Applies performance tweaks for older hardware |
+
+---
+
+## ▶️ How to Use
+
+### 1. Run the Analysis
+```powershell
+.\scripts\analysis.ps1
